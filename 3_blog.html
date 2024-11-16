@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/blog-articles.css">
+    <link rel="icon" type="image/png" href="./images/logo-Elise-Amar-Psychologue.png" />
+    <title>Blog |Elise Amar Psychologue Clinicienne - Psychothérapeute</title>
+</head>
+<body>
+    <div id="wrapper">
+        <!--=====================================  BARRE DE NAVIGATION ===============================-->
+        <header>
+            <a href="./index.html"><img class="nav-logo" src="./images/logo-Elise-Amar-Psychologue-large.png" alt="Logo du site"></a>
+        
+            <nav role="navigation" aria-label="Navigation principale">
+                <div class="wrapper">
+                    <input type="radio" name="slider" id="menu-btn" aria-label="Ouvrir le menu" aria-controls="nav-links">
+                    <input type="radio" name="slider" id="close-btn" aria-label="Fermer le menu" aria-controls="nav-links">
+        
+                    <ul class="nav-links" id="nav-links">
+                        <label for="close-btn" class="btn close-btn" aria-label="Fermer le menu"><img class="close-button" src="./images/Close.svg" alt=""></label>
+        
+                        <li>
+                            <a href="#" class="desktop-item" aria-haspopup="true" aria-expanded="false">Qui suis-je ?<img class="nav-arrow-down" src="./images/arrow-down.png" alt=""></a>
+                            <input type="checkbox" id="showDrop" aria-label="Afficher le sous-menu Qui suis-je ?">
+                            <label for="showDrop" class="mobile-item">Qui suis-je ?</label>
+                            <ul class="drop-menu" role="menu">
+                                <li><a href="./0-1_therapie.html" role="menuitem">Thérapie</a></li>
+                                <li><a href="./0-2_engagements.html" role="menuitem">Mes engagements</a></li>
+                                <li><a href="./0-3_parcours.html" role="menuitem">Mon parcours</a></li>
+                            </ul>
+                        </li>
+        
+                        <li>
+                            <a href="#" class="desktop-item" aria-haspopup="true" aria-expanded="false">Pour qui ?<img class="nav-arrow-down" src="./images/arrow-down.png" alt=""></a>
+                            <input type="checkbox" id="showDrop2" aria-label="Afficher le sous-menu Pour qui ?">
+                            <label for="showDrop2" class="mobile-item">Pour qui ?</label>
+                            <ul class="drop-menu" role="menu">
+                                <li><a href="./1-1_adolescent.html" role="menuitem">Adolescent</a></li>
+                                <li><a href="./1-2_individuelles.html" role="menuitem">Thérapies individuelles</a></li>
+                                <li><a href="./1-3_conjugales.html" role="menuitem">Thérapie conjugales</a></li>
+                                <li><a href="./1-4_familiales.html" role="menuitem">Thérapie familiales</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="reglage-bloc" href="./2_cabinet.html">Le cabinet</a></li>
+                        <li><a class="reglage-bloc" href="./3_blog.html">Blog</a></li>
+                        <li><a class="reglage-bloc" href="./4_contact.html">Contact</a></li>
+                        <li>
+                            <a class="bouton-doctolib doctolib-nav" href="https://www.doctolib.fr/" target="_blank" aria-label="Prendre rendez-vous en ligne via Doctolib">
+                                Prendre rendez-vous en ligne
+                                <img class="logo-doctolib" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Logo Doctolib">
+                            </a>
+                        </li>
+                    </ul>
+                    <label for="menu-btn" class="btn menu-btn" aria-label="Ouvrir le menu"><img src="./images/menu burger.svg" alt=""></label>
+                </div>
+            </nav>
+        
+            <div class="nav-cta">
+                <a class="bouton-doctolib" href="https://www.doctolib.fr/" target="_blank" aria-label="Prendre rendez-vous en ligne via Doctolib">
+                    Prendre rendez-vous en ligne
+                    <img class="logo-doctolib" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Logo Doctolib">
+                </a>
+            </div>
+        </header>
+
+        <main>
+            <section class="section-frame-title">
+                <div class="section-title">
+                    <h1 class="title-h1">Blog</h1>
+                </div>
+            </section>
+        
+            <div class="blog-button">
+                <button aria-label="Voir les catégories">Catégories</button>
+                <button aria-label="Voir les archives">Archives</button>
+            </div>
+        
+            <section class="blog-frame">
+                <div class="blog-content">
+                    <div class="blog-subsection">
+                        <article role="article">
+                            <a href="./5_article.html" aria-label="Lire l'article">
+                                <img src="./images/blog01.jpg" alt="Photo d'une main tendue">
+                            </a>
+                            <div class="blog-card-text-frame">
+                                <div class="blog-card-category">
+                                    <a href="#" aria-label="Catégorie 1">Catégorie 1</a>
+                                    <a href="#" aria-label="Catégorie 2">Catégorie 2</a>
+                                </div>
+                                <a href="./5_article.html">
+                                    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                                </a>
+                                <a href="./5_article.html">
+                                    <p>Lorem ipsum dolor sit amet consectetur. Enim id orci morbi lacus. Elementum cras et urna amet a sem sapien ultrices nec.</p>
+                                </a>
+                            </div>
+                            <p class="blog-card-date">18 Janvier 2023</p>
+                        </article>
+        
+                        <article role="article">
+                            <a href="./5_article.html" aria-label="Lire l'article">
+                                <img src="./images/blog02.jpg" alt="Photo de deux femmes qui se soutiennent">
+                            </a>
+                            <div class="blog-card-text-frame">
+                                <div class="blog-card-category">
+                                    <a href="#" aria-label="Catégorie 1">Catégorie 1</a>
+                                    <a href="#" aria-label="Catégorie 2">Catégorie 2</a>
+                                </div>
+                                <a href="./5_article.html">
+                                    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                                </a>
+                                <a href="./5_article.html">
+                                    <p>Lorem ipsum dolor sit amet consectetur. Enim id orci morbi lacus. Elementum cras et urna amet a sem sapien ultrices nec.</p>
+                                </a>
+                            </div>
+                            <p class="blog-card-date">18 Janvier 2023</p>
+                        </article>
+                    </div>
+        
+                    <div class="blog-subsection">
+                        <article role="article">
+                            <a href="./5_article.html" aria-label="Lire l'article">
+                                <img src="./images/blog03.jpg" alt="Photo d'un homme en train de méditer">
+                            </a>
+                            <div class="blog-card-text-frame">
+                                <div class="blog-card-category">
+                                    <a href="#" aria-label="Catégorie 1">Catégorie 1</a>
+                                    <a href="#" aria-label="Catégorie 2">Catégorie 2</a>
+                                </div>
+                                <a href="./5_article.html">
+                                    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                                </a>
+                                <a href="./5_article.html">
+                                    <p>Lorem ipsum dolor sit amet consectetur. Enim id orci morbi lacus. Elementum cras et urna amet a sem sapien ultrices nec.</p>
+                                </a>
+                            </div>
+                            <p class="blog-card-date">18 Janvier 2023</p>
+                        </article>
+        
+                        <article role="article">
+                            <a href="./5_article.html" aria-label="Lire l'article">
+                                <img src="./images/blog04.jpg" alt="Photo d'une femme en train de méditer">
+                            </a>
+                            <div class="blog-card-text-frame">
+                                <div class="blog-card-category">
+                                    <a href="#" aria-label="Catégorie 1">Catégorie 1</a>
+                                    <a href="#" aria-label="Catégorie 2">Catégorie 2</a>
+                                </div>
+                                <a href="./5_article.html">
+                                    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                                </a>
+                                <a href="./5_article.html">
+                                    <p>Lorem ipsum dolor sit amet consectetur. Enim id orci morbi lacus. Elementum cras et urna amet a sem sapien ultrices nec.</p>
+                                </a>
+                            </div>
+                            <p class="blog-card-date">18 Janvier 2023</p>
+                        </article>
+                    </div>
+        
+                    <div class="blog-subsection">
+                        <article role="article">
+                            <a href="./5_article.html" aria-label="Lire l'article">
+                                <img src="./images/blog05.jpg" alt="Photo d'une session de thérapie">
+                            </a>
+                            <div class="blog-card-text-frame">
+                                <div class="blog-card-category">
+                                    <a href="#" aria-label="Catégorie 1">Catégorie 1</a>
+                                    <a href="#" aria-label="Catégorie 2">Catégorie 2</a>
+                                </div>
+                                <a href="./5_article.html">
+                                    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                                </a>
+                                <a href="./5_article.html">
+                                    <p>Lorem ipsum dolor sit amet consectetur. Enim id orci morbi lacus. Elementum cras et urna amet a sem sapien ultrices nec.</p>
+                                </a>
+                            </div>
+                            <p class="blog-card-date">18 Janvier 2023</p>
+                        </article>
+        
+                        <article role="article">
+                            <a href="./5_article.html" aria-label="Lire l'article">
+                                <img src="./images/blog06.jpg" alt="Photo d'une femme tenant sa bague de mariage">
+                            </a>
+                            <div class="blog-card-text-frame">
+                                <div class="blog-card-category">
+                                    <a href="#" aria-label="Catégorie 1">Catégorie 1</a>
+                                    <a href="#" aria-label="Catégorie 2">Catégorie 2</a>
+                                </div>
+                                <a href="./5_article.html">
+                                    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                                </a>
+                                <a href="./5_article.html">
+                                    <p>Lorem ipsum dolor sit amet consectetur. Enim id orci morbi lacus. Elementum cras et urna amet a sem sapien ultrices nec.</p>
+                                </a>
+                            </div>
+                            <p class="blog-card-date">18 Janvier 2023</p>
+                        </article>
+                    </div>
+                </div>
+        
+                <aside aria-label="Sidebar">
+                    <div class="category-div">
+                        <h3>Catégories</h3>
+                        <ul>
+                            <li><a href="#">Catégorie 1</a></li>
+                            <li><a href="#">Catégorie 2</a></li>
+                            <li><a href="#">Catégorie 3</a></li>
+                            <li><a href="#">Catégorie 4</a></li>
+                            <li><a href="#">Catégorie 5</a></li>
+                            <li><a href="#">Catégorie 6</a></li>
+                            <li><a href="#">Catégorie 7</a></li>
+                            <li><a href="#">Catégorie 8</a></li>
+                        </ul>
+                    </div>
+        
+                    <div class="archive-div">
+                        <h3>Archives</h3>
+                        <ul>
+                            <li><a href="#">Janvier 2023</a></li>
+                            <li><a href="#">Février 2023</a></li>
+                            <li><a href="#">Mars 2023</a></li>
+                            <li><a href="#">Juin 2023</a></li>
+                            <li><a href="#">Décembre 2023</a></li>
+                            <li><a href="#">Mars 2022</a></li>
+                            <li><a href="#">Mai 2022</a></li>
+                            <li><a href="#">Septembre 2022</a></li>
+                        </ul>
+                    </div>
+                </aside>
+            </section>
+        
+            <nav aria-label="pagination">
+                <p><a class="page-suiv-pre" href="#"><img src="./images/arrow-left.svg" alt="flèche pointant à gauche"> Précédent</a></p>
+                <ul class="pagination">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">...</a></li>
+                    <li><a href="#">8</a></li>
+                    <li><a href="#">9</a></li>
+                    <li><a href="#">10</a></li>
+                </ul>
+                <p><a class="page-suiv-pre" href="#">Suivant <img src="./images/arrow-right.svg" alt="flèche pointant à droite"></a></p>
+            </nav>
+        </main>
+        
+
+        <footer>
+            <div class="footer-address">
+                <img class="footer-logo" src="./images/logo-Elise-Amar-Psychologue-carre.png" alt="Logo Psychologue">
+                <div>
+                    <p>4 rue du Pont 35400 Saint-Malo</p>
+                    <p>2 rue du Tertre 35093 Dinard</p>
+                    <p>Tel : <a href="tel:0685943548">06 85 94 35 48</a></p>
+                </div>
+            </div>
+        
+            <div class="footer-information">
+                <h3>Informations légales</h3>
+                <ul>
+                    <li><a href="./mentions-legales.html">Mentions légales</a></li>
+                    <li><a href="#">Politique de confidentialité</a></li>
+                    <li>N° Siret : 128 234 972 1573</li>
+                    <li>N° Adeli : 35 789 2467</li>
+                </ul>
+            </div>
+        
+            <div class="footer-articles">
+                <h3>Derniers articles</h3>
+                <ul>
+                    <li><a href="./5_article.html">Lorem ipsum dolor sit amet consexctetur.</a></li>
+                    <li><a href="./5_article.html">Lorem ipsum dolor sit amet consexctetur.</a></li>
+                    <li><a href="./5_article.html">Lorem ipsum dolor sit amet consexctetur.</a></li>
+                    <li><a href="./5_article.html">Lorem ipsum dolor sit amet consexctetur.</a></li>
+                    <li><a href="./5_article.html">Lorem ipsum dolor sit amet consexctetur.</a></li>
+                    <li><a href="./5_article.html">Lorem ipsum dolor sit amet consexctetur.</a></li>
+                </ul>
+            </div>
+        
+            <div class="footer-cta">
+                <a class="bouton-doctolib" href="https://www.doctolib.fr/" target="_blank" role="link" aria-label="Prendre rendez-vous en ligne via Doctolib">
+                    Prendre rendez-vous en ligne
+                    <img class="logo-doctolib" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Logo Doctolib">
+                </a>
+                <a class="main-button" href="./4_contact.html" aria-label="Me contacter">Me contacter</a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>

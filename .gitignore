@@ -1,0 +1,14 @@
+# Ignore les fichiers de configuration
+*.ini
+
+# Ignore les fichiers de log
+*.log
+
+# Ignore les fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore les répertoires de déploiement ou de build (si applicable)
+dist/
+build/

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="icon" type="image/png" href="./images/logo-Elise-Amar-Psychologue.png" />
+    <title>Elise Amar Psychologue Clinicienne - Psychothérapeute</title>
+</head>
+<body>
+
+    <!--=============================== NAV BAR ======================================================-->
+    <header>
+        <a href="./index.html"><img class="nav-logo" src="./images/logo-Elise-Amar-Psychologue-large.png" alt="Logo du site"></a>
+    
+        <nav role="navigation" aria-label="Navigation principale">
+            <div class="wrapper">
+                <input type="radio" name="slider" id="menu-btn" aria-label="Ouvrir le menu" aria-controls="nav-links">
+                <input type="radio" name="slider" id="close-btn" aria-label="Fermer le menu" aria-controls="nav-links">
+    
+                <ul class="nav-links" id="nav-links">
+                    <label for="close-btn" class="btn close-btn" aria-label="Fermer le menu"><img class="close-button" src="./images/Close.svg" alt=""></label>
+    
+                    <li>
+                        <a href="#" class="desktop-item" aria-haspopup="true" aria-expanded="false">Qui suis-je ?<img class="nav-arrow-down" src="./images/arrow-down.png" alt=""></a>
+                        <input type="checkbox" id="showDrop" aria-label="Afficher le sous-menu Qui suis-je ?">
+                        <label for="showDrop" class="mobile-item">Qui suis-je ?</label>
+                        <ul class="drop-menu" role="menu">
+                            <li><a href="./0-1_therapie.html" role="menuitem">Thérapie</a></li>
+                            <li><a href="./0-2_engagements.html" role="menuitem">Mes engagements</a></li>
+                            <li><a href="./0-3_parcours.html" role="menuitem">Mon parcours</a></li>
+                        </ul>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="desktop-item" aria-haspopup="true" aria-expanded="false">Pour qui ?<img class="nav-arrow-down" src="./images/arrow-down.png" alt=""></a>
+                        <input type="checkbox" id="showDrop2" aria-label="Afficher le sous-menu Pour qui ?">
+                        <label for="showDrop2" class="mobile-item">Pour qui ?</label>
+                        <ul class="drop-menu" role="menu">
+                            <li><a href="./1-1_adolescent.html" role="menuitem">Adolescent</a></li>
+                            <li><a href="./1-2_individuelles.html" role="menuitem">Thérapies individuelles</a></li>
+                            <li><a href="./1-3_conjugales.html" role="menuitem">Thérapie conjugales</a></li>
+                            <li><a href="./1-4_familiales.html" role="menuitem">Thérapie familiales</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="reglage-bloc" href="./2_cabinet.html">Le cabinet</a></li>
+                    <li><a class="reglage-bloc" href="./3_blog.html">Blog</a></li>
+                    <li><a class="reglage-bloc" href="./4_contact.html">Contact</a></li>
+                    <li>
+                        <a class="bouton-doctolib doctolib-nav" href="https://www.doctolib.fr/" target="_blank" aria-label="Prendre rendez-vous en ligne via Doctolib">
+                            Prendre rendez-vous en ligne
+                            <img class="logo-doctolib" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Logo Doctolib">
+                        </a>
+                    </li>
+                </ul>
+                <label for="menu-btn" class="btn menu-btn" aria-label="Ouvrir le menu"><img src="./images/menu burger.svg" alt=""></label>
+            </div>
+        </nav>
+    
+        <div class="nav-cta">
+            <a class="bouton-doctolib" href="https://www.doctolib.fr/" target="_blank" aria-label="Prendre rendez-vous en ligne via Doctolib">
+                Prendre rendez-vous en ligne
+                <img class="logo-doctolib" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Logo Doctolib">
+            </a>
+        </div>
+    </header>
+    
+<!--================================== CONTENU DU SITE ===========================================-->
+<main>
+    <!-- ========================= HERO ==========================-->
+    <section class="home-hero-section">
+        <div class="home-hero-text">
+            <h1 id="hero-h1">
+                Elise Amar<br>
+                <p class="heading-text"> 
+                    Psychologue Clinicienne - Psychothérapeute <br>
+                    Je vous accueille à Saint-Malo et Dinard
+                </p>
+            </h1>
+            <div class="home-cta">
+                <a class="main-button" href="https://www.doctolib.fr/" aria-label="Prendre rendez-vous">Prendre rendez-vous</a>
+                <a class="secondary-button" href="./4_contact.html" aria-label="Me contacter">Me contacter</a>
+            </div>
+        </div>
+        <img class="img-border-left" src="./images/eliseama-home.jpg" alt="Photo d'Elise Amar Psychologue">
+    </section>
+
+    <section class="section-frame-right">
+        <div class="section-imgLeft-textRight">
+            <h2>
+                Trouver l'équilibre : mon approche thérapeutique
+            </h2>
+            <div class="section-content-right">
+                <img class="img-border-right" src="./images/Cuisine-famille.jpg" alt="Photo d'une famille en train de préparer à manger">
+                <div class="section-text">
+                    <p>
+                        Tout individu possède la faculté de <span class="bold-body">chercher un équilibre personnel</span> tout en progressant dans sa vie, que cela concerne sa relation avec le monde, avec autrui, ou dans la gestion de ses besoins et envies.
+                    </p>
+                    <p>
+                        Cependant, cette aptitude à préserver un équilibre peut être affectée par des changements majeurs dus aux différentes étapes de la vie (naissance, deuil, rupture, départ des enfants, retraite, etc.) ou par des événements traumatisants (perte d'emploi, accident, maladie, abus, agression, etc.)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-frame-left">
+        <div class="section-textRight-imgLeft">
+            <h2>Transition et équilibre: une nouvelle voie</h2>
+            <div class="section-content-left">
+                <img class="img-border-left" src="./images/groupeparole.jpg" alt="Photo d'un groupe de parole">
+                <div class="section-text">
+                    <p>
+                        La thérapie offre la possibilité de <span class="bold-body">construire un "lien" ou une "transition" vers un nouvel équilibre</span>, qui tient compte des changements survenus dans votre vie et qui est en adéquation avec vos nouvelles ambitions. Pour vous soutenir dans ce processus, j'utilise diverses méthodes, y compris celles issues des <span class="bold-body">thérapies brèves</span> axées sur les solutions et de l'hypnose.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="accent-text">
+        <div>
+            <p class="accent-text-p"> 
+                <strong>Je propose des consultations pour adolescents, adultes, couples et familles dans mes cabinets à Saint-Malo et Dinard.</strong><br> En outre, je suis formatrice et j'interviens occasionnellement auprès de groupes et d'équipes dans des institutions.
+            </p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-address">
+        <img class="footer-logo" src="./images/logo-Elise-Amar-Psychologue-carre.png" alt="Logo Psychologue">
+        <div>
+            <p>4 rue du Pont 35400 Saint-Malo</p>
+            <p>2 rue du Tertre 35093 Dinard</p>
+            <p>Tel : <a href="tel:0685943548">06 85 94 35 48</a></p>
+        </div>
+    </div>
+
+    <div class="footer-information">
+        <h3>Informations légales</h3>
+        <ul>
+            <li><a href="./mentions-legales.html">Mentions légales</a></li>
+            <li><a href="#">Politique de confidentialité</a></li>
+            <li>N° Siret : 128 234 972 1573</li>
+            <li>N° Adeli : 35 789 2467</li>
+        </ul>
+    </div>
+
+    <div class="footer-articles">
+        <h3>Derniers articles</h3>
+        <ul>
+            <li><a href="./5_article.html">Lorem ipsum dolor sit amet consexctetur.</a></li>
+            <li><a href="./5_article.html">Lorem ipsum dolor sit amet consexctetur.</a></li>
+            <li><a href="./5_article.html">Lorem ipsum dolor sit amet consexctetur.</a></li>
+            <li><a href="./5_article.html">Lorem ipsum dolor sit amet consexctetur.</a></li>
+            <li><a href="./5_article.html">Lorem ipsum dolor sit amet consexctetur.</a></li>
+            <li><a href="./5_article.html">Lorem ipsum dolor sit amet consexctetur.</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-cta">
+        <a class="bouton-doctolib" href="https://www.doctolib.fr/" target="_blank" role="link" aria-label="Prendre rendez-vous en ligne via Doctolib">
+            Prendre rendez-vous en ligne
+            <img class="logo-doctolib" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Logo Doctolib">
+        </a>
+        <a class="main-button" href="./4_contact.html" aria-label="Me contacter">Me contacter</a>
+    </div>
+</footer>
+
+
+
+
+</body>
+</html>

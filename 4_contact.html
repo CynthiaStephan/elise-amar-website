@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="icon" type="image/png" href="./images/logo-Elise-Amar-Psychologue.png" />
+    <title>Contact |Elise Amar Psychologue Clinicienne - Psychothérapeute</title>
+</head>
+<body>
+        <!--=====================================  BARRE DE NAVIGATION ===============================-->
+        <header>
+            <a href="./index.html"><img class="nav-logo" src="./images/logo-Elise-Amar-Psychologue-large.png" alt="Logo du site"></a>
+        
+            <nav role="navigation" aria-label="Navigation principale">
+                <div class="wrapper">
+                    <input type="radio" name="slider" id="menu-btn" aria-label="Ouvrir le menu" aria-controls="nav-links">
+                    <input type="radio" name="slider" id="close-btn" aria-label="Fermer le menu" aria-controls="nav-links">
+        
+                    <ul class="nav-links" id="nav-links">
+                        <label for="close-btn" class="btn close-btn" aria-label="Fermer le menu"><img class="close-button" src="./images/Close.svg" alt=""></label>
+        
+                        <li>
+                            <a href="#" class="desktop-item" aria-haspopup="true" aria-expanded="false">Qui suis-je ?<img class="nav-arrow-down" src="./images/arrow-down.png" alt=""></a>
+                            <input type="checkbox" id="showDrop" aria-label="Afficher le sous-menu Qui suis-je ?">
+                            <label for="showDrop" class="mobile-item">Qui suis-je ?</label>
+                            <ul class="drop-menu" role="menu">
+                                <li><a href="./0-1_therapie.html" role="menuitem">Thérapie</a></li>
+                                <li><a href="./0-2_engagements.html" role="menuitem">Mes engagements</a></li>
+                                <li><a href="./0-3_parcours.html" role="menuitem">Mon parcours</a></li>
+                            </ul>
+                        </li>
+        
+                        <li>
+                            <a href="#" class="desktop-item" aria-haspopup="true" aria-expanded="false">Pour qui ?<img class="nav-arrow-down" src="./images/arrow-down.png" alt=""></a>
+                            <input type="checkbox" id="showDrop2" aria-label="Afficher le sous-menu Pour qui ?">
+                            <label for="showDrop2" class="mobile-item">Pour qui ?</label>
+                            <ul class="drop-menu" role="menu">
+                                <li><a href="./1-1_adolescent.html" role="menuitem">Adolescent</a></li>
+                                <li><a href="./1-2_individuelles.html" role="menuitem">Thérapies individuelles</a></li>
+                                <li><a href="./1-3_conjugales.html" role="menuitem">Thérapie conjugales</a></li>
+                                <li><a href="./1-4_familiales.html" role="menuitem">Thérapie familiales</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="reglage-bloc" href="./2_cabinet.html">Le cabinet</a></li>
+                        <li><a class="reglage-bloc" href="./3_blog.html">Blog</a></li>
+                        <li><a class="reglage-bloc" href="./4_contact.html">Contact</a></li>
+                        <li>
+                            <a class="bouton-doctolib doctolib-nav" href="https://www.doctolib.fr/" target="_blank" aria-label="Prendre rendez-vous en ligne via Doctolib">
+                                Prendre rendez-vous en ligne
+                                <img class="logo-doctolib" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Logo Doctolib">
+                            </a>
+                        </li>
+                    </ul>
+                    <label for="menu-btn" class="btn menu-btn" aria-label="Ouvrir le menu"><img src="./images/menu burger.svg" alt=""></label>
+                </div>
+            </nav>
+        
+            <div class="nav-cta">
+                <a class="bouton-doctolib" href="https://www.doctolib.fr/" target="_blank" aria-label="Prendre rendez-vous en ligne via Doctolib">
+                    Prendre rendez-vous en ligne
+                    <img class="logo-doctolib" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Logo Doctolib">
+                </a>
+            </div>
+        </header>
+
+        <main>
+            <section class="section-frame-title">
+                <div class="section-title">
+                    <h1 class="title-h1">Me contacter</h1>
+                </div>
+            </section>
+        
+            <div class="contact-frame">
+                <section class="contact-form" role="form" aria-labelledby="contact-form-heading">
+                    <h2 id="contact-form-heading">Me laisser un message</h2>
+        
+                    <form action="#" method="post">
+                        <div class="name-firstname">
+                            <div>
+                                <label for="nom">Nom*</label> <br>
+                                <input type="text" name="nom" id="nom" placeholder="Nom" required>
+                            </div>
+                            <div>
+                                <label for="prenom">Prénom*</label> <br>
+                                <input type="text" name="prenom" id="prenom" placeholder="Prénom" required>
+                            </div>
+                        </div>
+        
+                        <div>
+                            <label for="mail">Email*</label> <br>
+                            <input type="email" name="mail" id="mail" placeholder="Adresse mail" required>
+                        </div>
+        
+                        <div>
+                            <label for="phone">Numéro de téléphone</label> <br>
+                            <input type="tel" name="phone" id="phone" placeholder="06 00 00 00 00">
+                        </div>
+        
+                        <div>
+                            <label for="message">Message</label> <br>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message" required></textarea>
+                        </div>
+        
+                        <div>
+                            <input id="check-conditions" type="checkbox" value="checked" required>
+                            <label for="check-conditions">J'accepte les conditions générales de confidentialité.</label>
+                        </div>
+        
+                        <img src="./images/reCAPTCHA v2 checkbox.png" alt="Illustration du recaptcha" width="300" height="100">
+        
+                        <button type="submit">Envoyer message</button>
+                    </form>
+                </section>
+        
+                <section class="contact-maps">
+                    <div class="contact-detail">
+                        <h2>Je vous accueille à St-Malo et Dinard</h2>
+        
+                        <div class="contact-phone">
+                            <img src="./images/phone-alt.png" alt="Icône téléphone">
+                            <p>Tel : <a href="tel:0685943548">06 85 94 35 48</a></p>
+                        </div>
+                        
+                        <a class="bouton-doctolib" id="bouton-doctolib-contact" href="https://www.doctolib.fr/" target="_blank">
+                            Prendre rendez-vous en ligne
+                            <img class="logo-doctolib" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Logo Doctolib">
+                        </a>
+                    </div>
+                        
+                    <div class="map-saint-malo">
+                        <div class="map-saint-malo-text">                        
+                            <p class="adress-text">4 rue du Pont 35400 Saint-Malo</p>
+                            <p>Les lundis, mardi, jeudi et vendredis</p>
+                        </div>
+        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5271.570635934443!2d-2.0165599232533578!3d48.652222015192805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480e81728e567187%3A0x8c348f7e889eacd6!2s4%20Rue%20du%20Pont%2C%2035400%20Saint-Malo!5e0!3m2!1sfr!2sfr!4v1718356559459!5m2!1sfr!2sfr" width="600" height="450" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+        
+                    <div class="map-dinard">
+                        <div class="map-dinard-text">
+                            <p class="adress-text">2 rue du Tertre 35093 Dinard</p>
+                            <p>Les mercredis et un samedi sur deux</p>
+                        </div>
+        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6905.085270223201!2d-2.0688166258276928!3d48.633431045436424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480e80c7a03a4cfd%3A0x534b3c4447e18a77!2s4%20Pl.%20Rocha%C3%AEd%2C%2035800%20Dinard!5e0!3m2!1sfr!2sfr!4v1718356994197!5m2!1sfr!2sfr" width="600" height="450" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </section>
+            </div>
+        </main>
+        
+
+        <footer>
+            <div class="footer-address">
+                <img class="footer-logo" src="./images/logo-Elise-Amar-Psychologue-carre.png" alt="Logo Psychologue">
+                <div>
+                    <p>4 rue du Pont 35400 Saint-Malo</p>
+                    <p>2 rue du Tertre 35093 Dinard</p>
+                    <p>Tel : <a href="tel:0685943548">06 85 94 35 48</a></p>
+                </div>
+            </div>
+        
+            <div class="footer-information">
+                <h3>Informations légales</h3>
+                <ul>
+                    <li><a href="./mentions-legales.html">Mentions légales</a></li>
+                    <li><a href="#">Politique de confidentialité</a></li>
+                    <li>N° Siret : 128 234 972 1573</li>
+                    <li>N° Adeli : 35 789 2467</li>
+                </ul>
+            </div>
+        
+            <div class="footer-articles">
+                <h3>Derniers articles</h3>
+                <ul>
+                    <li><a href="./5_article.html">Lorem ipsum dolor sit amet consexctetur.</a></li>
+                    <li><a href="./5_article.html">Lorem ipsum dolor sit amet consexctetur.</a></li>
+                    <li><a href="./5_article.html">Lorem ipsum dolor sit amet consexctetur.</a></li>
+                    <li><a href="./5_article.html">Lorem ipsum dolor sit amet consexctetur.</a></li>
+                    <li><a href="./5_article.html">Lorem ipsum dolor sit amet consexctetur.</a></li>
+                    <li><a href="./5_article.html">Lorem ipsum dolor sit amet consexctetur.</a></li>
+                </ul>
+            </div>
+        
+            <div class="footer-cta">
+                <a class="bouton-doctolib" href="https://www.doctolib.fr/" target="_blank" role="link" aria-label="Prendre rendez-vous en ligne via Doctolib">
+                    Prendre rendez-vous en ligne
+                    <img class="logo-doctolib" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Logo Doctolib">
+                </a>
+                <a class="main-button" href="./4_contact.html" aria-label="Me contacter">Me contacter</a>
+            </div>
+        </footer>
+
+</body>
+</html>
